@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Сортировка Шелла
  */
 public class ShellSort {
-    public static void main(String[] args) {
+    public static void shellSort() {
 
         Integer[] numArr = {12, 5, 7, 3, 8, 10, 33, 21};
 

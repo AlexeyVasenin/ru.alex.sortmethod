@@ -5,7 +5,8 @@ import ru.alex.testsort.Swap;
 import java.util.Arrays;
 
 public class ShuttleSort {
-    public static void main(String[] args) {
+
+    public static void shuttleSort() {
 
         Integer[] numArr = {12, 5, 7, 3, 8, 10, 33, 21};
 

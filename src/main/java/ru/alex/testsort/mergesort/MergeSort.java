@@ -27,7 +27,7 @@ public class MergeSort {
         System.arraycopy(buffer, 0, source, left, buffer.length);
     }
 
-    public static void main(String[] args) {
+    public static void mergeStart() {
         int[] numArr = {12, 5, 7, 3, 8, 10, 33, 21};
         mergeSort(numArr, 0, numArr.length-1);
     }

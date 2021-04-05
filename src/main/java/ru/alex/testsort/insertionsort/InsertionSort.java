@@ -3,7 +3,8 @@ package ru.alex.testsort.insertionsort;
 import java.util.Arrays;
 
 public class InsertionSort {
-    public static void main(String[] args) {
+
+    public static void insertion() {
 
         Integer[] numArr = {10, 12, 17, 1, 7, 11, 20, 3, 15, 9, 8};
 

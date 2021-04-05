@@ -10,16 +10,13 @@ import java.util.Arrays;
  */
 public class BubbleSort {
 
-
-    public static void main(String[] args) {
+    public static void bubbleSort() {
 
         Integer[] numArr = {12, 10, 5, 1, 6, 8, 4, 7};
 
-        long startTime = System.currentTimeMillis();
-
         System.out.println(Arrays.toString(numArr));
 
-        Boolean needIteration = true;
+        boolean needIteration = true;
 
         while (needIteration) {
             needIteration = false;
@@ -30,9 +27,7 @@ public class BubbleSort {
                 }
             }
         }
-        long endTime = System.currentTimeMillis();
 
         System.out.println(Arrays.toString(numArr));
-        System.out.println((endTime - startTime));
     }
 }

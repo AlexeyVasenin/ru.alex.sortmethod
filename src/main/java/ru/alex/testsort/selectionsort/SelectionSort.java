@@ -8,7 +8,8 @@ import java.util.Arrays;
  * Пример работы алгоритма сортировки выбором(Selection Sort)
  */
 public class SelectionSort {
-    public static void main(String[] args) {
+
+    public static void selectionSort() {
         
         Integer[] numArr = {12, 5, 7, 3, 8, 10, 33, 21};
 
